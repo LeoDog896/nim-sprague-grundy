@@ -1,2 +1,5 @@
 /target
 output.txt
+flamegraph.svg
+perf.data
+perf.data.old
