@@ -19,7 +19,7 @@ fn compute(i: usize, cache: &Cache<usize, usize>) -> usize {
 }
 
 fn main() {
-    let cache: Cache<usize, usize> = Cache::new(1_000_000);
+    let cache: Cache<usize, usize> = Cache::new(100_000_000);
 
     let file = File::create("output.txt").unwrap();
     let mut writer = BufWriter::new(file);
